@@ -21,5 +21,6 @@ def won?(board)
     board_location1 = win_combination[0]
     board_location2 = win_combination[1]
     board_location3 = win_combination[2]
+    board[board_location1] == board[board_location2] && board[board_location2] == board[board_location3] && board[0] != " "
   end
 end
