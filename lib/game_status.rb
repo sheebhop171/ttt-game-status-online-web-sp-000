@@ -21,5 +21,5 @@ def won?(board)
 end
 
 WIN_COMBINATIONS.each do |win_combination|
-board[0] == board[1] && board[1] == board[2] && board[0] != " "
+  board[0] == board[1] && board[1] == board[2] && board[0] != " "
 end
