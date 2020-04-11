@@ -18,6 +18,5 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   win_combinations.select do |combos|
-    puts board(index)
-
+  
 end
