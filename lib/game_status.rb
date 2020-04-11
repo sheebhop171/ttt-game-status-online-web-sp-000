@@ -42,4 +42,4 @@ def winner(board)
   won?(board)
 end
 
-board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+board = ["X", "X", "X", "O", "0", "0", "O", "0", "O"]
