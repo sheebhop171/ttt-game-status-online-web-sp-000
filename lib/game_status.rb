@@ -5,10 +5,6 @@ end
 
 # Define your WIN_COMBINATIONS constant
 
-def won?(board)
-
-end
-
 WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
@@ -19,3 +15,9 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6]
 ]
+
+def won?(board)
+  win_combinations.select do |combos|
+    puts board(index)
+  
+end
