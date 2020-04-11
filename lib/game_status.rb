@@ -43,6 +43,7 @@ def winner(board)
   if win_combination
     winning_location = win_combination[0]
     board[winning_location]
+  end
 end
 
 #board = ["X", "X", "X", "O", "0", "0", "O", "0", "O"]
