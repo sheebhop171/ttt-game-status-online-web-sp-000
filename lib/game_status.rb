@@ -39,8 +39,10 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board) && board[0] = "X"
-  return "X"
+  win_combination = won?(board)
+  if win_combination 
+    winning_location = win_combination[0]
+    board[winning_location]
 end
 
 #board = ["X", "X", "X", "O", "0", "0", "O", "0", "O"]
