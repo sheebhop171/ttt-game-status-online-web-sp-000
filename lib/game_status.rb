@@ -39,7 +39,8 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
+  won?(board) && board[value] = "X"
+  return "X"
 end
 
-board = ["X", "X", "X", "O", "0", "0", "O", "0", "O"]
+#board = ["X", "X", "X", "O", "0", "0", "O", "0", "O"]
